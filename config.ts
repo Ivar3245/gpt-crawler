@@ -27,10 +27,3 @@ export const config: Config = {
   maxPagesToCrawl: 50,
   outputFileName: "output.json",
 };
-export const config: Config = {
-  url: "https://www.builder.io/c/docs/developers",
-  match: "https://www.builder.io/c/docs/**",
-  selector: `.docs-builder-container`,
-  maxPagesToCrawl: 50,
-  outputFileName: "output.json",
-};
